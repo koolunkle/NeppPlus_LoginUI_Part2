@@ -106,5 +106,39 @@
         android:layout_marginTop="30dp"
         android:text="로그인" />
 
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:padding="10dp"
+            android:text="회원가입"
+            android:gravity="center"
+            android:textColor="#FFFFFF"/>
+
+        <TextView
+            android:layout_width="1dp"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:background="#FFFFFF" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1"
+            android:padding="10dp"
+            android:gravity="center"
+            android:text="비밀번호 찾기"
+            android:textColor="#FFFFFF"/>
+
+
+    </LinearLayout>
+
 
 </LinearLayout>
